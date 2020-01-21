@@ -1,50 +1,6 @@
-#SKU_LIST = {
-#	event_target:SKU_LIST_CONTROLLER = {
-#		switch = {
-#			#scope
-#			trigger = has_country_flag
-#			SKU_LIST_list:last = {
-#			}
-#			SKU_LIST_list:new = {
-#				#SKU_CREATE_LIST = yes
-#			}
-#			#	$identifier$_$list$ = { }				#saved event target list
-#			SKU_LIST_list:get_list = {
-#			}
-#			SKU_LIST_list:$list$ = {
-#				event_target:$list$ = {
-#					save_event_target_as = SKU_CURRENT_LIST
-#				}
-#			}
-#		}
-#		#list_$num$
-#		switch = {
-#			#actions
-#			trigger = $action|overwrite$
-#			add_object = {
-#			}			#add this object to the list
-#			clear_objects = {
-#			}			#clear every item
-#			clear_objects_$attribute$ = {
-#			}			#clear every item
-#			copy_to = {
-#			}			#copy to target list
-#			delete_list = {
-#			}			#delete scoped list
-#			get_$attribute$ = {
-#			}			#e.g. get_ID_<list id>
-#			get_content = {
-#			}			#get every list item
-#			get_content_$attribute$ = {
-#			}			#get every list item with $attribute$
-#			set_flag = {
-#			}			#sets flag
-#		}
-#		#	SKU_PRINT = yes
-#	}
-#}
-#
-#
+update
+
+#SKU_LIST
 
 | = = Structure of scripted_variables for SKU:
 ||==========================================================================================||
@@ -63,7 +19,8 @@
 || 		   		  	  :  "_"     =>   (formatting) seperator [MOD-tag _ variable name] 	 	||
 ||(UsssUss) !FirstOfWord!:<name1..n>=> potential to add additional last segmenst 			||
 ||-----------------------:------------------------------------------------------------------||
- ==Variable Type
+
+#Variable Type
   (VTypes dictate the use of the variable, so Code can be easily navigated without much forehand knowlege of the project)
   -type 		=>			(Used to mimik Enum)
   -limit		=>  		(Used to globally limit values)
