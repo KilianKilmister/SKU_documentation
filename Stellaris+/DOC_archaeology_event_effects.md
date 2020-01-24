@@ -16,7 +16,7 @@
   * proper effect-tooltips are important in archeological-events as they are printet in the log **as is**.
     
 
-* #### notes_1 <!-- omit in TOS -->
+ #### notes_1  <!-- omit in toc -->
   * valid scopes: `fleet, ship, planet, pop, leader, army, megastructure, sector, starbase`
   * 1: `minor_artefacts` itself has associated locs.:  
     > `minor_artifacts:0 "Minor Artifacts"`  
